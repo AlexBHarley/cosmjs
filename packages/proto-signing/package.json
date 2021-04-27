@@ -49,6 +49,7 @@
   },
   "devDependencies": {
     "@cosmjs/encoding": "^0.25.0",
-    "@cosmjs/utils": "^0.25.0"
+    "@cosmjs/utils": "^0.25.0",
+    "eslint": "^7.5"
   }
 }

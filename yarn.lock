@@ -295,14 +295,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@cosmjs/amino@^0.25.0-alpha.3, @cosmjs/amino@workspace:packages/amino":
+"@cosmjs/amino@^0.25.0, @cosmjs/amino@workspace:packages/amino":
   version: 0.0.0-use.local
   resolution: "@cosmjs/amino@workspace:packages/amino"
   dependencies:
-    "@cosmjs/crypto": ^0.25.0-alpha.3
-    "@cosmjs/encoding": ^0.25.0-alpha.3
-    "@cosmjs/math": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/crypto": ^0.25.0
+    "@cosmjs/encoding": ^0.25.0
+    "@cosmjs/math": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
+    eslint: ^7.5
   languageName: unknown
   linkType: soft
 
@@ -310,18 +311,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cosmjs/cli@workspace:packages/cli"
   dependencies:
-    "@cosmjs/amino": ^0.25.0-alpha.3
-    "@cosmjs/cosmwasm-launchpad": ^0.25.0-alpha.3
-    "@cosmjs/cosmwasm-stargate": ^0.25.0-alpha.3
-    "@cosmjs/crypto": ^0.25.0-alpha.3
-    "@cosmjs/encoding": ^0.25.0-alpha.3
-    "@cosmjs/faucet-client": ^0.25.0-alpha.3
-    "@cosmjs/launchpad": ^0.25.0-alpha.3
-    "@cosmjs/math": ^0.25.0-alpha.3
-    "@cosmjs/proto-signing": ^0.25.0-alpha.3
-    "@cosmjs/stargate": ^0.25.0-alpha.3
-    "@cosmjs/tendermint-rpc": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/amino": ^0.25.0
+    "@cosmjs/cosmwasm-launchpad": ^0.25.0
+    "@cosmjs/cosmwasm-stargate": ^0.25.0
+    "@cosmjs/crypto": ^0.25.0
+    "@cosmjs/encoding": ^0.25.0
+    "@cosmjs/faucet-client": ^0.25.0
+    "@cosmjs/launchpad": ^0.25.0
+    "@cosmjs/math": ^0.25.0
+    "@cosmjs/proto-signing": ^0.25.0
+    "@cosmjs/stargate": ^0.25.0
+    "@cosmjs/tendermint-rpc": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
     "@types/babylon": ^6.16.3
     "@types/diff": ^4
     "@types/yargs": ^15.0.4
@@ -329,6 +330,7 @@ __metadata:
     babylon: ^6.18.0
     colors: ^1.3.3
     diff: ^4
+    eslint: ^7.5
     recast: ^0.20
     ts-node: ^8
     typescript: ~4.0
@@ -338,35 +340,37 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cosmjs/cosmwasm-launchpad@^0.25.0-alpha.3, @cosmjs/cosmwasm-launchpad@workspace:packages/cosmwasm-launchpad":
+"@cosmjs/cosmwasm-launchpad@^0.25.0, @cosmjs/cosmwasm-launchpad@workspace:packages/cosmwasm-launchpad":
   version: 0.0.0-use.local
   resolution: "@cosmjs/cosmwasm-launchpad@workspace:packages/cosmwasm-launchpad"
   dependencies:
-    "@cosmjs/crypto": ^0.25.0-alpha.3
-    "@cosmjs/encoding": ^0.25.0-alpha.3
-    "@cosmjs/launchpad": ^0.25.0-alpha.3
-    "@cosmjs/math": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/crypto": ^0.25.0
+    "@cosmjs/encoding": ^0.25.0
+    "@cosmjs/launchpad": ^0.25.0
+    "@cosmjs/math": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
     "@types/pako": ^1.0.1
+    eslint: ^7.5
     pako: ^2.0.2
     readonly-date: ^1.0.0
   languageName: unknown
   linkType: soft
 
-"@cosmjs/cosmwasm-stargate@^0.25.0-alpha.3, @cosmjs/cosmwasm-stargate@workspace:packages/cosmwasm-stargate":
+"@cosmjs/cosmwasm-stargate@^0.25.0, @cosmjs/cosmwasm-stargate@workspace:packages/cosmwasm-stargate":
   version: 0.0.0-use.local
   resolution: "@cosmjs/cosmwasm-stargate@workspace:packages/cosmwasm-stargate"
   dependencies:
-    "@cosmjs/amino": ^0.25.0-alpha.3
-    "@cosmjs/cosmwasm-launchpad": ^0.25.0-alpha.3
-    "@cosmjs/crypto": ^0.25.0-alpha.3
-    "@cosmjs/encoding": ^0.25.0-alpha.3
-    "@cosmjs/math": ^0.25.0-alpha.3
-    "@cosmjs/proto-signing": ^0.25.0-alpha.3
-    "@cosmjs/stargate": ^0.25.0-alpha.3
-    "@cosmjs/tendermint-rpc": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/amino": ^0.25.0
+    "@cosmjs/cosmwasm-launchpad": ^0.25.0
+    "@cosmjs/crypto": ^0.25.0
+    "@cosmjs/encoding": ^0.25.0
+    "@cosmjs/math": ^0.25.0
+    "@cosmjs/proto-signing": ^0.25.0
+    "@cosmjs/stargate": ^0.25.0
+    "@cosmjs/tendermint-rpc": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
     "@types/pako": ^1.0.1
+    eslint: ^7.5
     long: ^4.0.0
     pako: ^2.0.2
     protobufjs: ~6.10.2
@@ -378,17 +382,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cosmjs/cosmwasm@workspace:packages/cosmwasm"
   dependencies:
-    "@cosmjs/cosmwasm-launchpad": ^0.25.0-alpha.3
+    "@cosmjs/cosmwasm-launchpad": ^0.25.0
+    eslint: ^7.5
   languageName: unknown
   linkType: soft
 
-"@cosmjs/crypto@^0.25.0-alpha.3, @cosmjs/crypto@workspace:packages/crypto":
+"@cosmjs/crypto@^0.25.0, @cosmjs/crypto@workspace:packages/crypto":
   version: 0.0.0-use.local
   resolution: "@cosmjs/crypto@workspace:packages/crypto"
   dependencies:
-    "@cosmjs/encoding": ^0.25.0-alpha.3
-    "@cosmjs/math": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/encoding": ^0.25.0
+    "@cosmjs/math": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
     "@types/bn.js": ^4.11.6
     "@types/elliptic": ^6.4.12
     "@types/libsodium-wrappers": ^0.7.7
@@ -399,6 +404,7 @@ __metadata:
     bip39: ^3.0.2
     bn.js: ^4.11.8
     elliptic: ^6.5.3
+    eslint: ^7.5
     js-sha3: ^0.8.0
     libsodium-wrappers: ^0.7.6
     pbkdf2: ^3.1.2
@@ -408,22 +414,24 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cosmjs/encoding@^0.25.0-alpha.3, @cosmjs/encoding@workspace:packages/encoding":
+"@cosmjs/encoding@^0.25.0, @cosmjs/encoding@workspace:packages/encoding":
   version: 0.0.0-use.local
   resolution: "@cosmjs/encoding@workspace:packages/encoding"
   dependencies:
     "@types/base64-js": ^1.2.5
     base64-js: ^1.3.0
     bech32: ^1.1.4
+    eslint: ^7.5
     readonly-date: ^1.0.0
   languageName: unknown
   linkType: soft
 
-"@cosmjs/faucet-client@^0.25.0-alpha.3, @cosmjs/faucet-client@workspace:packages/faucet-client":
+"@cosmjs/faucet-client@^0.25.0, @cosmjs/faucet-client@workspace:packages/faucet-client":
   version: 0.0.0-use.local
   resolution: "@cosmjs/faucet-client@workspace:packages/faucet-client"
   dependencies:
     axios: ^0.21.1
+    eslint: ^7.5
   languageName: unknown
   linkType: soft
 
@@ -431,17 +439,18 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cosmjs/faucet@workspace:packages/faucet"
   dependencies:
-    "@cosmjs/crypto": ^0.25.0-alpha.3
-    "@cosmjs/encoding": ^0.25.0-alpha.3
-    "@cosmjs/launchpad": ^0.25.0-alpha.3
-    "@cosmjs/math": ^0.25.0-alpha.3
-    "@cosmjs/proto-signing": ^0.25.0-alpha.3
-    "@cosmjs/stargate": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/crypto": ^0.25.0
+    "@cosmjs/encoding": ^0.25.0
+    "@cosmjs/launchpad": ^0.25.0
+    "@cosmjs/math": ^0.25.0
+    "@cosmjs/proto-signing": ^0.25.0
+    "@cosmjs/stargate": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
     "@koa/cors": ^3.0.0
     "@types/koa": ^2.11.0
     "@types/koa-bodyparser": ^4.3.0
     "@types/koa__cors": ^3.0.1
+    eslint: ^7.5
     koa: ^2.11.0
     koa-bodyparser: ^4.2.1
   bin:
@@ -449,25 +458,27 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@cosmjs/json-rpc@^0.25.0-alpha.3, @cosmjs/json-rpc@workspace:packages/json-rpc":
+"@cosmjs/json-rpc@^0.25.0, @cosmjs/json-rpc@workspace:packages/json-rpc":
   version: 0.0.0-use.local
   resolution: "@cosmjs/json-rpc@workspace:packages/json-rpc"
   dependencies:
-    "@cosmjs/stream": ^0.25.0-alpha.3
+    "@cosmjs/stream": ^0.25.0
+    eslint: ^7.5
     xstream: ^11.14.0
   languageName: unknown
   linkType: soft
 
-"@cosmjs/launchpad@^0.25.0-alpha.3, @cosmjs/launchpad@workspace:packages/launchpad":
+"@cosmjs/launchpad@^0.25.0, @cosmjs/launchpad@workspace:packages/launchpad":
   version: 0.0.0-use.local
   resolution: "@cosmjs/launchpad@workspace:packages/launchpad"
   dependencies:
-    "@cosmjs/amino": ^0.25.0-alpha.3
-    "@cosmjs/crypto": ^0.25.0-alpha.3
-    "@cosmjs/encoding": ^0.25.0-alpha.3
-    "@cosmjs/math": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/amino": ^0.25.0
+    "@cosmjs/crypto": ^0.25.0
+    "@cosmjs/encoding": ^0.25.0
+    "@cosmjs/math": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
     axios: ^0.21.1
+    eslint: ^7.5
     fast-deep-equal: ^3.1.3
     readonly-date: ^1.0.0
   languageName: unknown
@@ -477,99 +488,108 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@cosmjs/ledger-amino@workspace:packages/ledger-amino"
   dependencies:
-    "@cosmjs/amino": ^0.25.0-alpha.3
-    "@cosmjs/launchpad": ^0.25.0-alpha.3
-    "@cosmjs/stargate": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/amino": ^0.25.0
+    "@cosmjs/launchpad": ^0.25.0
+    "@cosmjs/stargate": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
     "@ledgerhq/hw-transport": ^5.25.0
     "@ledgerhq/hw-transport-node-hid": ^5.25.0
     "@ledgerhq/hw-transport-webusb": ^5.25.0
     "@types/ledgerhq__hw-transport-node-hid": ^4.22.2
     "@types/ledgerhq__hw-transport-webusb": ^4.70.1
     "@types/semver": ^7.3.4
+    eslint: ^7.5
     ledger-cosmos-js: ^2.1.8
     semver: ^7.3.2
   languageName: unknown
   linkType: soft
 
-"@cosmjs/math@^0.25.0-alpha.3, @cosmjs/math@workspace:packages/math":
+"@cosmjs/math@^0.25.0, @cosmjs/math@workspace:packages/math":
   version: 0.0.0-use.local
   resolution: "@cosmjs/math@workspace:packages/math"
   dependencies:
     "@types/bn.js": ^4.11.6
     bn.js: ^4.11.8
+    eslint: ^7.5
   languageName: unknown
   linkType: soft
 
-"@cosmjs/proto-signing@^0.25.0-alpha.3, @cosmjs/proto-signing@workspace:packages/proto-signing":
+"@cosmjs/proto-signing@^0.25.0, @cosmjs/proto-signing@workspace:packages/proto-signing":
   version: 0.0.0-use.local
   resolution: "@cosmjs/proto-signing@workspace:packages/proto-signing"
   dependencies:
-    "@cosmjs/amino": ^0.25.0-alpha.3
-    "@cosmjs/encoding": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/amino": ^0.25.0
+    "@cosmjs/encoding": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
+    eslint: ^7.5
     long: ^4.0.0
     protobufjs: ~6.10.2
   languageName: unknown
   linkType: soft
 
-"@cosmjs/socket@^0.25.0-alpha.3, @cosmjs/socket@workspace:packages/socket":
+"@cosmjs/socket@^0.25.0, @cosmjs/socket@workspace:packages/socket":
   version: 0.0.0-use.local
   resolution: "@cosmjs/socket@workspace:packages/socket"
   dependencies:
-    "@cosmjs/stream": ^0.25.0-alpha.3
+    "@cosmjs/stream": ^0.25.0
     "@types/ws": ^6.0.1
+    eslint: ^7.5
     isomorphic-ws: ^4.0.1
     ws: ^6.2.0
     xstream: ^11.14.0
   languageName: unknown
   linkType: soft
 
-"@cosmjs/stargate@^0.25.0-alpha.3, @cosmjs/stargate@workspace:packages/stargate":
+"@cosmjs/stargate@^0.25.0, @cosmjs/stargate@workspace:packages/stargate":
   version: 0.0.0-use.local
   resolution: "@cosmjs/stargate@workspace:packages/stargate"
   dependencies:
     "@confio/ics23": ^0.6.3
-    "@cosmjs/amino": ^0.25.0-alpha.3
-    "@cosmjs/encoding": ^0.25.0-alpha.3
-    "@cosmjs/math": ^0.25.0-alpha.3
-    "@cosmjs/proto-signing": ^0.25.0-alpha.3
-    "@cosmjs/stream": ^0.25.0-alpha.3
-    "@cosmjs/tendermint-rpc": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/amino": ^0.25.0
+    "@cosmjs/encoding": ^0.25.0
+    "@cosmjs/math": ^0.25.0
+    "@cosmjs/proto-signing": ^0.25.0
+    "@cosmjs/stream": ^0.25.0
+    "@cosmjs/tendermint-rpc": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
+    eslint: ^7.5
     long: ^4.0.0
     protobufjs: ~6.10.2
   languageName: unknown
   linkType: soft
 
-"@cosmjs/stream@^0.25.0-alpha.3, @cosmjs/stream@workspace:packages/stream":
+"@cosmjs/stream@^0.25.0, @cosmjs/stream@workspace:packages/stream":
   version: 0.0.0-use.local
   resolution: "@cosmjs/stream@workspace:packages/stream"
   dependencies:
+    eslint: ^7.5
     xstream: ^11.14.0
   languageName: unknown
   linkType: soft
 
-"@cosmjs/tendermint-rpc@^0.25.0-alpha.3, @cosmjs/tendermint-rpc@workspace:packages/tendermint-rpc":
+"@cosmjs/tendermint-rpc@^0.25.0, @cosmjs/tendermint-rpc@workspace:packages/tendermint-rpc":
   version: 0.0.0-use.local
   resolution: "@cosmjs/tendermint-rpc@workspace:packages/tendermint-rpc"
   dependencies:
-    "@cosmjs/crypto": ^0.25.0-alpha.3
-    "@cosmjs/encoding": ^0.25.0-alpha.3
-    "@cosmjs/json-rpc": ^0.25.0-alpha.3
-    "@cosmjs/math": ^0.25.0-alpha.3
-    "@cosmjs/socket": ^0.25.0-alpha.3
-    "@cosmjs/stream": ^0.25.0-alpha.3
-    "@cosmjs/utils": ^0.25.0-alpha.3
+    "@cosmjs/crypto": ^0.25.0
+    "@cosmjs/encoding": ^0.25.0
+    "@cosmjs/json-rpc": ^0.25.0
+    "@cosmjs/math": ^0.25.0
+    "@cosmjs/socket": ^0.25.0
+    "@cosmjs/stream": ^0.25.0
+    "@cosmjs/utils": ^0.25.0
     axios: ^0.21.1
+    eslint: ^7.5
     readonly-date: ^1.0.0
     xstream: ^11.14.0
   languageName: unknown
   linkType: soft
 
-"@cosmjs/utils@^0.25.0-alpha.3, @cosmjs/utils@workspace:packages/utils":
+"@cosmjs/utils@^0.25.0, @cosmjs/utils@workspace:packages/utils":
   version: 0.0.0-use.local
   resolution: "@cosmjs/utils@workspace:packages/utils"
+  dependencies:
+    eslint: ^7.5
   languageName: unknown
   linkType: soft
 
