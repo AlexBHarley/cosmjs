@@ -44,6 +44,8 @@
   },
   "dependencies": {
     "@cosmjs/amino": "^0.25.0",
+    "@cosmjs/crypto": "^0.25.0",
+    "@cosmjs/math": "^0.25.0",
     "long": "^4.0.0",
     "protobufjs": "~6.10.2"
   },
