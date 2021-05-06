@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/naming-convention */
+require('../../.pnp.js');
 const glob = require("glob");
 const path = require("path");
 const webpack = require("webpack");
@@ -22,9 +23,12 @@ module.exports = [
     ],
     resolve: {
       fallback: {
+        // buffer: false,
         crypto: require.resolve("crypto-browserify"),
+        // events: false,
         path: require.resolve("path-browserify"),
         stream: require.resolve("stream-browserify"),
+        // string_decoder: false,
       },
     },
   },
